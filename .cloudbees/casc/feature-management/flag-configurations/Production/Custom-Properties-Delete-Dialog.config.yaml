@@ -1,0 +1,28 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: Custom-Properties-Delete-Dialog
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  valueWrittenInCode: true
+
+conditions:
+  - allOf:
+      - property:
+          name: userEmail
+          operator: in-array
+          operands:
+            - sadasd
+    flagValue: false
+  - allOf:
+      - property:
+          name: orgId
+          operator: ne
+          operands:
+            - 23wqeqwe3213
+    flagValue: false

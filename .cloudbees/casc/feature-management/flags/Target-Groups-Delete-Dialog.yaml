@@ -2,9 +2,9 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: AutoTest.6bded358-b316-4181-b3d2-3d6b28a28915.Boolean.Flag
+flag: Target-Groups-Delete-Dialog
 flagType: boolean
-description: AutoTest Description
+description: ""
 labels:
 
 availableValues:
