@@ -1,0 +1,14 @@
+[
+  {
+    "component_id": "4b2dc2f2-04c3-4b22-8f63-961a4b7fcf8a",
+    "branch_name": "main",
+    "workflow_file_name": "my-workflow.yaml",
+    "ignore_failures": true
+  },
+  {
+    "component_id": "4b2dc2f2-04c3-4b22-8f63-961a4b7fcf8a",
+    "branch_name": "main",
+    "workflow_file_name": "my-workflow-2.yaml",
+    "ignore_failures": true
+  },
+]
